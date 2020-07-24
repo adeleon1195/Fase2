@@ -1,0 +1,10 @@
+CREATE DATABASE Fase2;
+USE Fase2;
+
+CREATE TABLE animal (
+	id INT IDENTITY(1,1) PRIMARY KEY, 
+	nombre VARCHAR (100),
+	tipo VARCHAR (100),
+	color VARCHAR (100),
+	edad INT 
+);
